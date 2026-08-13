@@ -1,0 +1,1 @@
+console.log("Quetzales F.C. cargado correctamente");
