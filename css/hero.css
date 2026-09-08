@@ -1,0 +1,175 @@
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+    padding-top:90px;
+
+    background-image:url("../images/team/team-photo.jpg");
+
+    background-size:cover;
+    background-position:center 15%;
+    background-repeat:no-repeat;
+
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(8,24,38,.65);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+    color:white;
+
+    max-width:1200px;
+
+    padding: 18px 38px;
+
+    transform:translateY(195px);
+
+    /* ===========================
+   HERO BUTTONS
+=========================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-top:230px;
+
+    padding:18px 42px;
+    font-size:18px;
+    border-radius:10px;
+
+}
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+    line-height:1;
+
+    font-weight:800;
+
+    margin-bottom:25px;
+
+}
+
+.hero-content p{
+
+    margin:10px auto;
+
+    line-height:0.2;
+
+    font-size:18px;
+
+    max-width:900px;
+
+    margin-bottom:45px;
+
+
+}
+
+.btn-secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:18px 38px;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    margin-left:20px;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:#081826;
+
+}
+
+.hero-buttons .btn-primary{
+
+    width:220px;
+
+    height:58px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:18px;
+
+}
+
+.hero-buttons .btn-secondary{
+
+    width:220px;
+
+    height:58px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border:2px solid white;
+
+    color:white;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.hero-buttons .btn-secondary:hover{
+
+    background:white;
+
+    color:#081826;
+
+}

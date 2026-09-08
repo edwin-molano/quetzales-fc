@@ -1,0 +1,110 @@
+/*=================================
+NOSOTROS
+==================================*/
+
+.about{
+
+    display:flex;
+    align-items:center;
+
+    min-height:650px;
+
+    background:#ffffff;
+
+    overflow:hidden;
+
+}
+
+.about-text{
+
+    width:50%;
+
+    padding:60px 70px;
+
+    position:relative;
+
+    z-index:2;
+
+
+    
+
+}
+
+.about-image{
+
+    position:relative;
+
+    width:50%;
+
+    height:650px;
+
+    overflow:hidden;
+
+    margin-left:0px;
+
+clip-path: polygon(
+    10% 0,
+    100% 0,
+    100% 100%,
+    0 100%
+);
+    
+}
+
+.about-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    position:relative;
+    object-position:center top;
+
+}
+
+
+.about-subtitle{
+
+    color:#D4AF37;
+
+    letter-spacing:3px;
+
+    font-weight:bold;
+
+    font-size:16px;
+
+    letter-spacing:5px;
+
+}
+
+.about h2{
+
+    font-size:58px;
+
+    margin:20px 0;
+
+    color:#081826;
+
+}
+
+.about p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#444;
+
+    margin-bottom:40px;
+
+    max-width:620px;
+
+}
+
+.about .btn-primary{
+
+    margin-top:20px;
+    padding:18px 42px;
+
+}
+
